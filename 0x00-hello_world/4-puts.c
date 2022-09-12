@@ -3,8 +3,8 @@
 /**
  * main - prints the string in the put function
  *
- * Description: using the put function
- * the program that prints Programming is like building a multilingual puzzle
+ * Description: using the put function the program
+ * that prints Programming is like building a multilingual puzzle
  *
  * Return: 0
  */
