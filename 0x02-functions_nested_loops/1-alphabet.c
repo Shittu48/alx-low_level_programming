@@ -15,9 +15,5 @@ void print_alphabet(void)
 		_putchar(ch);
 	}
 	_putchar('\n');
-}
-int main(void)
-{
-	printf("%d"  ch);
 	return (0);
 }
