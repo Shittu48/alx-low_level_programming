@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - print void 
+ * main - print void
  *
  * Description: code tp print alphabet
  * Return: 0
@@ -13,12 +12,12 @@ void print_alphabet(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 int main(void)
 {
-	print_alphabet();
+	printf("%d"  ch);
 	return (0);
 }
