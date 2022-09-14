@@ -1,7 +1,6 @@
 #include <unistd.h>
-
 /**
-* _putchar- writesthe character cto the stdout
+* _putchar - writes the character cto the stdout
 
 * Return: On Success1
 * On error, -1 is returned, and error is set appropriately.
