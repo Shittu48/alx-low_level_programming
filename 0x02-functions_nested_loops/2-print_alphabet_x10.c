@@ -1,18 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - print alphabets 
+ * main - print alphabets
  *
- * Decription: print alphabets
- *
+ * Decription: print alphabets from a to z
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	int ch;
+	int i, c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-
+	for (i = '0'; i <= '10'; i++)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c)
+		}
 		return (0);
 }
 
