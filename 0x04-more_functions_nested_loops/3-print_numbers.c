@@ -1,13 +1,18 @@
 #include "main.h"
 
 /**
-*mul - multiplies two numbers
-*@a: first number
-*@b: second number
-*Return: returns result
+* print_numbers - function that print all numbers from 0 to 9
+*
+* Return: returns nothing
 */
 
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar(10);
 }
