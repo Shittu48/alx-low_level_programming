@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 *more_numbers - prints numbers to 14
 *
@@ -16,10 +17,10 @@ void more_numbers(void)
 		{
 			if (n2 > 9)
 			{
-				putchar((n2 / 10) + '0');
+				_putchar((n2 / 10) + '0');
 			}
-			putchar((n2 % 10) + '0');
+			_putchar((n2 % 10) + '0');
 		}
-		putchar(10);
+		_putchar(10);
 	}
 }
