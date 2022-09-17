@@ -10,9 +10,9 @@ int main(void)
 {
 	int num = 1;
 
-	while (num++ < 100)
+	while (num <= 100)
 	{
-		if (num % 15 == 0)
+		if (num % 3 == 0 && num & 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
@@ -22,7 +22,7 @@ int main(void)
 		}
 		else if (num % 5 == 0)
 		{
-			if (num != 100)
+			if (num == 100)
 			{
 				printf("Buzz ");
 			}
@@ -35,6 +35,7 @@ int main(void)
 		{
 			printf("%d ", num);
 		}
+		num++;
 	}
 	printf("\n");
 	return (0);
