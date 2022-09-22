@@ -1,1 +1,4 @@
-Pointers, Arrays and Strings continuation in C
+Pointers, Arrays in C
+String copy
+Concatenate
+Magic and so on
