@@ -1,3 +1,7 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+#include <stdio.h>
 
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
@@ -10,4 +14,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif /* MAIN_H */
+#endif
