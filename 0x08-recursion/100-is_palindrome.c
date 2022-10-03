@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * s_len - calculates the lingth of a string
+ * s_len - calculates the length of a string
  * @s: original string
  * Return: length of string
  */
@@ -13,7 +13,7 @@ int s_len(char *s)
 	}
 	else
 	{
-		return (1 + s_lens(s + 1));
+		return (1 + s_len(s + 1));
 	}
 }
 
@@ -24,7 +24,7 @@ int s_len(char *s)
  * @len: lenth of string
  * Return: 1 if the palindrome otherwise 0
  */
-int pal(char *s, int i, int n)
+int pal(char *s, int i, int len)
 {
 	if (*(s + i) == *(s + len - 1 - i) && i == (len / 2))
 	{
@@ -41,13 +41,13 @@ int pal(char *s, int i, int n)
 }
 
 /**
- * is_palindrpme - check if the string is a palindrome ex ala
+ * is_palindrome - check if the string is a palindrome ex ala
  * @s: original string
  * Return: 1 if is a palindrome otherwise 0
  */
 int is_palindrome(char *s)
 {
-	if (pals(s, 0_len(s)) == 1)
+	if (pal(s, 0_len(s)) == 1)
 	{
 		return (1);
 	}

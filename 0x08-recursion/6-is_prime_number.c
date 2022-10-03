@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * power_opeartion - returns the natural square root of a number
+ * is_prime - calculate if the number is a prime
  * @n: integer variable of given number
  * @i: iterator
- * Return: square root or -1
+ * Return: 1 ifnumber is a prime
  */
-int power_opeartion(int n, int i)
+int is_prime(int n, int i)
 {
-	if (i % (n / i) == 0)
+	if (n % i == 0)
 	{
-		if (i * (n / i) == n)
-		{
-			return (i);
-		}
-		else
-		{
-			return (-1);
-		}
+		return (0);
 	}
+	else if (i == (n - 1) && n % i != 0)
+	{
+		return (1);
+	}
+	else
+	}
+	return (is_prime(n, i + 1));
 }
 
 /**
