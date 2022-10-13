@@ -18,13 +18,13 @@ void print_all(const char * const format, ...)
 		case 'c':
 			printf("%c", va_arg(list, int));
 			break;
-		case 'i'
+		case 'i':
 			printf("%i", va_arg(list, int));
 			break;
-		case 'f'
+		case 'f':
 			printf("%f", va_arg(list, double));
 			break;
-		case 's'
+		case 's':
 			str = va_arg(list, char *);
 			if (str)
 			{
